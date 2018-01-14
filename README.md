@@ -6,13 +6,15 @@ The board's design is based on [Cryogenius's MIDI to Gameport schematic](http://
 
 ## schematic
 
-![Schematic](/hardware/schematic.gif)
+![The board's schematic](/hardware/schematic.gif)
 
 (from [Cryogenius's MIDI to Gameport](http://www.cryogenius.com/hardware/sbmidi/) page)
 
 ## pcb
 
 The printable typon can be found at hardware/typon.png. The typon with overlayed components can be found at hardware/pcb.png. They both are real sized images to be printed with a resolution of 600dpi.
+
+![The actual board with overlayed components on top.](/hardware/pcb.png)
 
 The list of parts you need to build the circuit can be found below.
 
