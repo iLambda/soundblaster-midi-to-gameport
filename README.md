@@ -10,6 +10,10 @@ The board's design is based on [Cryogenius's MIDI to Gameport schematic](http://
 
 (from [Cryogenius's MIDI to Gameport](http://www.cryogenius.com/hardware/sbmidi/) page)
 
+### 6N137 variant
+
+If you must use a 6N137 (which is more common), you can just use the same PCB and replace *I1* by a **6N137** and *R2* by a 10k resistor.
+
 ## pcb
 
 The printable typon can be found at hardware/typon.png. The typon with overlayed components can be found at hardware/pcb.png. They both are real sized images to be printed with a resolution of 600dpi.
@@ -34,7 +38,7 @@ The list of parts you need to build the circuit can be found below.
 
 ### resistors
 * *R1, R4* : 270 Ω
-* *R2* : 5,6 kΩ
+* *R2* : 5,6 kΩ (or 10kΩ if you use a 6N137 for *I1*)
 * *R3* : 10 kΩ
 * *R5* : 2.2 kΩ
 * *R6* : 220 Ω
